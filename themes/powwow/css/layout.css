@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* CSS Document */
+a {outline:none; 
+}
+.apply{outline:none; 
+	color: white;
+	text-decoration: none;
+	background: #F38900;
+padding: 5px;
+border-radius: 5px;
+
+}
+body{
+	background-image:url(../images/bgimg3.png);
+	background-position: center top;
+	background-repeat:no-repeat;
+	background-color:#f8c45b;
+	}
+h1, h2, h3, h4, h5, h6, li, p {
+	font-family: 'Josefin Sans', arial, serif;
+	font-weight:900;}
+div#content {
+	width:1000px;
+	margin:0 auto 0 auto;}	
+span.lowercase {
+	text-transform:lowercase;
+	font-size:45px;
+	}	
+.font {
+	font-family: 'Josefin Sans', arial, serif;
+	text-transform:uppercase;}
+ul {
+	list-style-type:none;
+	margin:0px 0 40px -40px;
+	text-transform:uppercase;
+	}
+ul li, ol li, p {
+	font-weight:100;
+	font-size:20px;}
+.directions h4{
+	text-transform:uppercase;
+	margin-bottom:5px;
+	}
+.directions ol {margin:0 0 40px 0;}
+div.directions {margin:0 0 20px 0;}
+
+p.registration a{
+		-moz-background-clip:border;
+		-moz-background-inline-policy:continuous;
+		-moz-background-origin:padding;
+		background:url(../images/registrationbutton.png) no-repeat scroll 0 0;
+		display:block; 
+		height:56px;
+		text-indent:-9999px;
+		width:250px;}
+p.admission a {
+		-moz-background-clip:border;
+		-moz-background-inline-policy:continuous;
+		-moz-background-origin:padding;
+		background:url(../images/color.png) no-repeat scroll -12px 0;
+		display:block;
+		height:103px;
+		width:273px;
+		text-indent:-9999px;}
+
+
+/*HEADER*/
+div#header {
+	width:1000px;
+	margin:0 auto 0 auto;
+	
+	}
+h1 {
+	/*color:#fe6e04; 
+	font-size:85px;
+	font-weight:bold;
+	outline-color:#ffcc66;
+	outline-width:2px;
+	font-effect:emboss;
+	text-transform:uppercase;
+	height:130px;
+	margin:0;*/
+	display:block;
+	height:100px;
+	width:500px;
+	background-image:url(../images/powwow.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	text-indent: -9999px;
+	float:left;
+	margin:0;
+	}
+.uilogo {
+	display:block;
+	height:38px;
+	width:1000px;
+	margin:10px 0 0 0;
+	float:left;
+	background:url(../images/uiowa.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	text-indent: -9999px;}
+p.purpose {
+	font-family: 'Josefin Sans', arial, serif;
+	color:#de7c33;
+	font-size:20px;
+	width:500px;
+	float:right;
+	height:100px;
+	margin:0;
+	padding:0px 0 0 0;
+	text-align:right;
+	
+	}
+/*END HEADER */
+
+
+
+
+/*NAVIGATION */
+div#nav {
+	font-family: 'Josefin Sans', arial, serif;
+	width:1000px;
+	margin:0 auto 0 auto;}
+div#nav ul {
+	list-style-type:none;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;}
+div#nav ul li {
+	display:inline;
+	font-size:20px;
+	padding:0 13px 0 13px;
+	}
+div#nav ul li a {
+	color:white;
+	text-decoration:none;
+	}
+div#nav ul li a:hover {
+	color:#ea7121;
+	}
+/*END NAVIGATION */
+
+
+
+
+/* EVENT FEATURE */
+div#eventfeature {
+	width:1000px;
+	min-height:200px;
+	background-color:#000;
+	background: rgba(0,0,0,.6);
+	border:3px ridge #c0a475;
+	margin:55px 0 30px 0;
+	}
+div#eventfeature h2 {
+	color:#dea456;
+	margin:40px 0 0 180px;
+	font-weight:100;
+	font-size:35px;}
+span.date {
+	text-transform:uppercase;
+	font-size:65px;
+	font-weight:bold;
+	color:#7fdae9;
+	margin-left:110px;
+	font-effect:engrave;
+	text-shadow: -1px 0 #0e77a8, 0 1px #0e77a8,
+      1px 0 #0e77a8, 0 -1px #0e77a8;
+	}
+div#eventfeature p {
+	font-family: 'Josefin Sans', arial, serif;
+	font-size:23px;
+	color:white;
+	margin:0 75px 40px 75px;
+	line-height:30px;
+	text-align:center;}
+/*END EVENT FEATURE */
+
+
+
+/*LEFT COLUMN */
+div#leftcolumn {
+	width:575px;
+	float:left;
+	margin:25px 50px 20px 0;
+	}
+div#leftcolumn h3 {
+	text-transform:uppercase;
+	color:#2d1d0f;
+	font-size:45px;
+	font-weight:bold;
+	margin:0;
+	}
+div#leftcolumn p {
+	margin:0 0 40px 0;}
+/*END LEFT COLUMN */
+
+
+
+
+/*RIGHT COLUMN */
+div#rightcolumn {
+	width:375px;
+	float:left;
+	margin:25px 0 20px 0;
+	}
+div#rightcolumn h4 {
+	font-size:49px;
+	color:#2d1d0f;
+	font-weight:900;
+	text-transform:uppercase;
+	margin:20px 0 0 0;
+	}
+.underline {
+	border-bottom:7px solid #876730;}
+div#rightcolumn h5 {
+	text-transform:uppercase;
+	color:#2d1d0f;
+	font-size:18px;
+	font-weight:bold;}
+div#rightcolumn p {
+	/*margin:0 0 40px 0; */}
+span.large {
+	font-size:105px;
+	font-weight:bolder;}
+h4 span.lowercase {
+	font-size:35px;
+	}
+/*END RIGHT COLUMN */
+
+/*FOOTER*/
+
+div#footer {clear:both;
+	font-family: 'Josefin Sans', arial, serif;
+	width:1000px;
+	min-height:200px;
+	margin:60px auto 30px auto;
+	padding:0;
+	padding-top:30px;
+	}
+div#footer p {
+	margin:0;
+	text-align:center;
+	color: #876730;
+	}
+div#footer p a {color:#876730;
+	text-decoration:none;}
+div#footer ul {
+	margin:20px 0 20px 0;
+	list-style-type:none;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	}
+div#footer ul li {
+	display:inline;
+	font-size:20px;
+	padding:0 16px 0 16px;
+	margin-top:30px;
+	}
+div#footer ul li a {
+	color:#876730;
+	text-decoration:none;
+	}
+div#footer ul li a:hover {
+	color:#ea7121;}
+/*END FOOTER*/
+
+
+
+
