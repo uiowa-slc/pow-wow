@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="$ThemeDir/css/historylayout.css" />
 	
 <div id="content">
     <div id="leftcolumn">
@@ -9,4 +8,5 @@
     <div id="rightcolumn">
         $Content2
     </div>
+    <div class="clear"></div>
 </div>

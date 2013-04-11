@@ -6,13 +6,11 @@
 <% base_tag %>
 		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 		$MetaTags(false)
-	
-		
 		<% require themedCSS(layout) %> 
 
 </head>
 
-<body>
+<body class="$ClassName">
 
 	<div id="header">
     	<a class="uilogo" href="http://uiowa.edu">The University of Iowa</a>
@@ -26,9 +24,10 @@
 		<% include Navigation %>
 	</div>
     
-    <div id="content">
+   <div id="content-wrapper">
    $Layout
    </div>
+  
     <div id="footer">
     <p>&copy; <a href="http://www.uiowa.edu">The University of Iowa</a> $Now.Year. All rights reserved.</p>
        		 <ul>
