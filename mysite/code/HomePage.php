@@ -12,10 +12,10 @@ class HomePage extends Page {
 	
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$fields->addFieldToTab("Root.Content.Event", new HTMLEditorField('Event'));
+		$fields->addFieldToTab("Root.Event", new HTMLEditorField('Event'));
 
-		$fields->addFieldToTab("Root.Content.Content1", new HTMLEditorField('Content1'));
-		$fields->addFieldToTab("Root.Content.Content2", new HTMLEditorField('Content2'));
+		$fields->addFieldToTab("Root.Content1", new HTMLEditorField('Content1'));
+		$fields->addFieldToTab("Root.Content2", new HTMLEditorField('Content2'));
 		return $fields;
 	}
 }

@@ -12,9 +12,9 @@ class Page extends SiteTree {
 		function getCMSFields() {
 		$fields = parent::getCMSFields();
 
-		$fields->addFieldToTab("Root.Content.Content1", new HTMLEditorField('Content1'));
-		$fields->addFieldToTab("Root.Content.Content2", new HTMLEditorField('Content2'));
-				$fields->removeFieldFromTab("Root.Content.Main","Content");
+		$fields->addFieldToTab("Root.Content1", new HTMLEditorField('Content1'));
+		$fields->addFieldToTab("Root.Content2", new HTMLEditorField('Content2'));
+				$fields->removeFieldFromTab("Root.Main","Content");
 
 		return $fields;
 	}
