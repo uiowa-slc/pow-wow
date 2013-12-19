@@ -1,11 +1,11 @@
 <?php
 class HomePage extends Page {
 
-	public static $db = array(
+	private static $db = array(
 		'Event' => 'HTMLText',
 		);
 
-	public static $has_one = array(
+	private static $has_one = array(
 	);
 	
 	function getCMSFields() {

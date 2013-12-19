@@ -1,12 +1,12 @@
 <?php
 class Page extends SiteTree {
 
-	public static $db = array(
+	private static $db = array(
 		'Content1' => 'HTMLText',	
 		'Content2' => 'HTMLText'
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 	);
 	
 		function getCMSFields() {
@@ -38,7 +38,7 @@ class Page_Controller extends ContentController {
 	 *
 	 * @var array
 	 */
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
 
 	public function init() {
