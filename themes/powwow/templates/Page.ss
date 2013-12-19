@@ -29,7 +29,7 @@
    </div>
   
     <div id="footer">
-    <p>&copy; <a href="http://www.uiowa.edu">The University of Iowa</a> $Now.Year. All rights reserved.</p>
+    <p>&copy; <a href="http://www.uiowa.edu">The University of Iowa</a> {$Now.Year}. All rights reserved.</p>
        		 <ul>
              <% include Navigation %>
                <!-- <li><a href="/powwow">Home</a></li>
