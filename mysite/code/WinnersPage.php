@@ -2,8 +2,7 @@
 class WinnersPage extends Page {
 
 	public static $db = array(
-		'Content1' => 'HTMLText',	
-		'Content2' => 'HTMLText'
+
 	);
 
 	public static $has_one = array(
@@ -11,10 +10,8 @@ class WinnersPage extends Page {
 	
 		function getCMSFields() {
 		$fields = parent::getCMSFields();
+		$fields->removeFieldFromTab("Root.Main","Content1");
 
-		$fields->addFieldToTab("Root.Content1", new HTMLEditorField('Content1'));
-		$fields->addFieldToTab("Root.Content2", new HTMLEditorField('Content2'));
-				$fields->removeFieldFromTab("Root.Main","Content");
 
 		return $fields;
 	}

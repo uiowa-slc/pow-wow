@@ -1,0 +1,25 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.typography {
+	background: #F5C362;
+	font-family: 'Josefin Sans', arial, serif;
+	font-size: 1.2em;
+}
+
+.typography a {
+	color: #DB1B00;
+	text-decoration: none;
+}
+.typography h2, .typography h3, .typography h5 {
+	text-transform: uppercase;
+}
+
+.typography h3 {
+	border-bottom: 1px solid #FE6E04;
+	box-shadow: 0 1px 0 #FAD17D;
+	color: #8F4006;
+	margin: 1em 0;
+}
+.typography h4 {
+	color: #13545F;
+}
