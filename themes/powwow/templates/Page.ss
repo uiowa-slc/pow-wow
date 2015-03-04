@@ -30,15 +30,8 @@
   
     <div id="footer">
     <p>&copy; <a href="http://www.uiowa.edu">The University of Iowa</a> {$Now.Year}. All rights reserved.</p>
-       		 <ul>
-             <% include Navigation %>
-               <!-- <li><a href="/powwow">Home</a></li>
-              
-                <li><a href="/powwow/for-performers">For Performers</a></li>
-                <li><a href="/powwow/sponsors">Sponsors</a></li>
-                <li><a href="/powwow/history-and-etiquette">History and Etiquette</a></li>-->
-            </ul>
-    <p>Individuals with disabilities are encouraged to attend all University of Iowa-sponsored events. If you are a person with a disability who requires an accomodation in order to participate in this program, please contact AISA in advance at (319) 335-8298 or <a href="mailto:studorg-aisa@uiowa.edu">studorg-aisa@uiowa.edu</a>.  </p>
+    <% include Navigation %>
+    <p>Individuals with disabilities are encouraged to attend all University of Iowa-sponsored events. If you are a person with a disability who requires an accomodation in order to participate in this program, please contact CSIL in advance at (319) 335-3059 or <a href="mailto:studorg-ui-nasa@uiowa.edu">studorg-ui-nasa@uiowa.edu</a></p>
     </div>
    
 </body>
