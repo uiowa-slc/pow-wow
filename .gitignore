@@ -26,3 +26,6 @@ assets/
 contact_form/
 node_modules/
 _ss_environment.php
+siteconfig/
+
+reports/
