@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html class="no-js" lang="$ContentLocale.ATT" dir="$i18nScriptDirection.ATT">
 <head><link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="/favicon.ico">
 <% base_tag %>
-		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
+		<title><% if URLSegment != "home" %>$Title | <% end_if %>$SiteConfig.Title</title>
 		$MetaTags(false)
 		<% require themedCSS(layout) %> 
 
@@ -13,7 +13,7 @@
 
 	<div id="header">
     	<a class="uilogo" href="http://uiowa.edu">The University of Iowa</a>
-        <h1><a href="/">Powwow</a></h1>
+        <h1><a href="{$baseURL}">Powwow</a></h1>
         <p class="purpose">Celebrating and honoring American Indian dance, food, culture and tradition with the Iowa 
         	community</p>
     </div>
