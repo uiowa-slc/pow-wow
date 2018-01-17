@@ -32,6 +32,6 @@
     <% include Navigation %>
     <p>Individuals with disabilities are encouraged to attend all University of Iowa-sponsored events. If you are a person with a disability who requires an accomodation in order to participate in this program, please contact CSIL in advance at (319) 335-3059 or <a href="mailto:studorg-ui-nasa@uiowa.edu">studorg-ui-nasa@uiowa.edu</a></p>
     </div>
-   $DivisionAnalytics
+   $Analytics
 </body>
 </html>
