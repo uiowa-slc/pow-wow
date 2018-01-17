@@ -1,11 +1,1 @@
-<link rel="stylesheet" type="text/css" href="$ThemeDir/css/historylayout.css" />
-	
-<div id="content">
-    <div id="leftcolumn">
-     $Form
-       $Content1
-	
-    <div id="rightcolumn">
-        $Content2
-    </div>
-</div>
+<link rel="stylesheet" href="$ThemeDir/css/historylayout.css"><div id="content"><div id="leftcolumn">$Form $Content1<div id="rightcolumn">$Content2</div></div></div>

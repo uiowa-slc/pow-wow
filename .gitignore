@@ -31,3 +31,6 @@ reports/
 activedirectory/
 multivaluefield/
 queuedjobs/
+.tmp/
+division-analytics/
+uiowa-bar/

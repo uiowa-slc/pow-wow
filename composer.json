@@ -6,7 +6,9 @@
 		"silverstripe/cms": "3.6.*@stable",
 		"silverstripe/framework": "3.6.*@stable",
 		"silverstripe-themes/simple": "*",
-		"silverstripe/activedirectory" : "3.*"
+		"silverstripe/activedirectory" : "3.*",
+		"md/division-analytics":"1.*",
+		"md/uiowa-bar":"*"
 
 	},
 	"config": {
@@ -17,7 +19,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory"
-
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
+        },
+         {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar"
         }
     ]
 }
