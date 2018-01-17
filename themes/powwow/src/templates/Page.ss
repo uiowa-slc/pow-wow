@@ -3,7 +3,7 @@
 <head><link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="/favicon.ico">
 <% base_tag %>
-		<title><% if URLSegment != "home" %>$Title | <% end_if %>$SiteConfig.Title</title>
+		<title><% if URLSegment != "home" %>$Title | <% end_if %>$SiteConfig.Title | The University of Iowa</title>
 		$MetaTags(false)
 		<link rel="stylesheet" type="text/css" href="{$ThemeDir}/dist/css/main.css" />
 
