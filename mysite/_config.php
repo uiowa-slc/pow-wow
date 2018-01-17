@@ -19,6 +19,7 @@ i18n::set_locale('en_US');
 FulltextSearchable::enable();
 
 if(Director::isLive()) {
-	Director::forceSSL(array('/^Security/','/^admin/'));
+	Director::forceSSL();
 }
+Authenticator::unregister('MemberAuthenticator');
 Authenticator::set_default_authenticator('SAMLAuthenticator');
