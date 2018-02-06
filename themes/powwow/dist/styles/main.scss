@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import "../../../../uiowa-bar/scss/uiowa-bar";
 /* CSS Document */
 body {
 	background-image: url(../images/interiorbgimg3.png);
@@ -7,10 +7,13 @@ body {
 	background-repeat: no-repeat;
 	background-color: #f8c45b;
 	font-family: 'Josefin Sans', arial, serif;
+	margin: 0;
+	padding: 0;
 }
 
 body.HomePage {
 	background-image: url(../images/bgimg3.png);
+	background-position: 0 40px;
 }
 
 a {
@@ -153,6 +156,7 @@ p.admission a {
 #header {
 	width: 1000px;
 	margin: 0 auto 0 auto;
+	padding-top: 20px;
 }
 
 h1 {
