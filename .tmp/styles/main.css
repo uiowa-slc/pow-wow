@@ -157,7 +157,7 @@ body.HomePage {
   background-position: 0 40px; }
 
 a {
-  color: #881100;
+  color: #ffcd00;
   text-decoration: none; }
 
 p {
@@ -210,8 +210,7 @@ h5 {
   margin: 0 0 10px 20px; }
 
 #content.homepage {
-  padding: 2%;
-  border: 1px solid #967F58; }
+  color: #fff; }
 
 #content.homepage img {
   max-width: 100%; }
