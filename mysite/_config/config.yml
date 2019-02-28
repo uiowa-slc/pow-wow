@@ -5,4 +5,4 @@ SilverStripe\Core\Manifest\ModuleManifest:
   project: mysite
 SiteConfig:
   extensions:
-    - UiowaBarSiteConfigExtension
+    - vendor/md/uiowa-bar/code/UiowaBarSiteConfigExtension

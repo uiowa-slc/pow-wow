@@ -147,7 +147,7 @@ body {
   background-image: url(../images/interiorbgimg3.png);
   background-position: center top;
   background-repeat: no-repeat;
-  background-color: #f8c45b;
+  background-color: #0073af;
   font-family: 'Josefin Sans', arial, serif;
   margin: 0;
   padding: 0; }
@@ -157,7 +157,7 @@ body.HomePage {
   background-position: 0 40px; }
 
 a {
-  color: #DB1B00;
+  color: #881100;
   text-decoration: none; }
 
 p {
@@ -187,9 +187,9 @@ h2 {
 
 h3 {
   font-size: 38px;
-  border-bottom: 1px solid #FE6E04;
+  border-bottom: 1px solid #ffcd00;
   box-shadow: 0 1px 0 #FAD17D;
-  color: #8F4006;
+  color: #ffcd00;
   margin: 1em 0; }
 
 h4 {
@@ -210,7 +210,6 @@ h5 {
   margin: 0 0 10px 20px; }
 
 #content.homepage {
-  background: rgba(248, 196, 92, 0.72);
   padding: 2%;
   border: 1px solid #967F58; }
 
@@ -300,9 +299,13 @@ h1 a {
   background-repeat: no-repeat;
   text-indent: -9999px; }
 
+.powwow-logo {
+  color: #ffcd00;
+  outline-color: #000000; }
+
 p.purpose {
   font-family: 'Josefin Sans', arial, serif;
-  color: #E6A270;
+  color: #ffcd00;
   font-size: 20px;
   width: 500px;
   float: right;
@@ -349,7 +352,7 @@ p.purpose {
   text-align: center; }
 
 #eventfeature h2 {
-  color: #dea456;
+  color: #ffcd00;
   margin: 30px 0;
   font-weight: 100;
   font-size: 35px; }
@@ -358,7 +361,7 @@ span.date {
   text-transform: uppercase;
   font-size: 65px;
   font-weight: bold;
-  color: #7fdae9;
+  color: #0073af;
   font-effect: engrave;
   text-shadow: -1px 0 #0e77a8, 0 1px #0e77a8, 1px 0 #0e77a8, 0 -1px #0e77a8; }
 
@@ -415,10 +418,10 @@ h4 span.lowercase {
 #footer p {
   margin: 0;
   text-align: center;
-  color: #876730; }
+  color: #fff; }
 
 #footer p a {
-  color: #876730;
+  color: #fff;
   text-decoration: none; }
 
 #footer ul {
@@ -435,7 +438,7 @@ h4 span.lowercase {
   margin-top: 30px; }
 
 #footer ul li a {
-  color: #876730;
+  color: #fff;
   text-decoration: none; }
 
 #footer ul li a:hover {
