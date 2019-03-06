@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b209e3f878f69d4045261e5ed52eea5",
+    "content-hash": "44df400bc99938ffc638fe893217041e",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -60,7 +60,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2019-01-28 09:30:10"
+            "time": "2019-01-28T09:30:10+00:00"
         },
         {
             "name": "composer/installers",
@@ -184,16 +184,16 @@
         },
         {
             "name": "embed/embed",
-            "version": "v3.3.8",
+            "version": "v3.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/Embed.git",
-                "reference": "5a1677f19274b76ae93cfffa7626b935b7c37e51"
+                "reference": "4f0d7c0ba8dce13228fd35b7a73cd4ef5ab0f02c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/5a1677f19274b76ae93cfffa7626b935b7c37e51",
-                "reference": "5a1677f19274b76ae93cfffa7626b935b7c37e51",
+                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/4f0d7c0ba8dce13228fd35b7a73cd4ef5ab0f02c",
+                "reference": "4f0d7c0ba8dce13228fd35b7a73cd4ef5ab0f02c",
                 "shasum": ""
             },
             "require": {
@@ -233,7 +233,7 @@
                 "opengraph",
                 "twitter cards"
             ],
-            "time": "2019-02-13T09:06:53+00:00"
+            "time": "2019-02-25T15:07:28+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -241,12 +241,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "ae7949ee7b865f0eb8b191c438cda63cad59d437"
+                "reference": "31ea59d632d3ac145300fffb2873a195172c0814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/ae7949ee7b865f0eb8b191c438cda63cad59d437",
-                "reference": "ae7949ee7b865f0eb8b191c438cda63cad59d437",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/31ea59d632d3ac145300fffb2873a195172c0814",
+                "reference": "31ea59d632d3ac145300fffb2873a195172c0814",
                 "shasum": ""
             },
             "require": {
@@ -258,6 +258,7 @@
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-zlib": "*",
                 "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
             },
             "suggest": {
@@ -303,7 +304,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-28 01:59:01"
+            "time": "2019-02-20T09:29:56+00:00"
         },
         {
             "name": "intervention/image",
@@ -373,7 +374,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2018-05-29 14:19:03"
+            "time": "2018-05-29T14:19:03+00:00"
         },
         {
             "name": "league/csv",
@@ -430,7 +431,7 @@
                 "read",
                 "write"
             ],
-            "time": "2018-02-06 08:27:03"
+            "time": "2018-02-06T08:27:03+00:00"
         },
         {
             "name": "league/flysystem",
@@ -646,7 +647,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/tree/1.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/issues"
             },
-            "time": "2018-08-17 20:20:52"
+            "time": "2018-08-17T20:20:52+00:00"
         },
         {
             "name": "md/saml",
@@ -714,7 +715,7 @@
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml/tree/md"
             },
-            "time": "2018-08-22 20:27:51"
+            "time": "2018-08-22T20:27:51+00:00"
         },
         {
             "name": "md/uiowa-bar",
@@ -741,7 +742,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/tree/1.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/issues"
             },
-            "time": "2018-07-05 17:48:54"
+            "time": "2018-07-05T17:48:54+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -819,7 +820,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2018-12-26 14:24:03"
+            "time": "2018-12-26T14:24:03+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -870,7 +871,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-02-16 20:58:22"
+            "time": "2019-02-16T20:58:22+00:00"
         },
         {
             "name": "onelogin/php-saml",
@@ -1018,7 +1019,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-10-13 14:48:10"
+            "time": "2016-10-13T14:48:10+00:00"
         },
         {
             "name": "psr/container",
@@ -1117,7 +1118,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -1164,7 +1165,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-21 13:42:00"
+            "time": "2018-11-21T13:42:00+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -1212,7 +1213,7 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "time": "2017-10-23 01:57:42"
+            "time": "2017-10-23T01:57:42+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -1299,7 +1300,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2018-12-20 09:06:28"
+            "time": "2018-12-20T09:06:28+00:00"
         },
         {
             "name": "silverstripe/admin",
@@ -1307,12 +1308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "153a94a12cd20314f713ae4deb33feff40b5e9aa"
+                "reference": "77bf05805965036094af747fca17840b7aa0eb4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/153a94a12cd20314f713ae4deb33feff40b5e9aa",
-                "reference": "153a94a12cd20314f713ae4deb33feff40b5e9aa",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/77bf05805965036094af747fca17840b7aa0eb4f",
+                "reference": "77bf05805965036094af747fca17840b7aa0eb4f",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1361,7 @@
                 "admin",
                 "silverstripe"
             ],
-            "time": "2019-02-04 09:29:37"
+            "time": "2019-03-01T03:45:33+00:00"
         },
         {
             "name": "silverstripe/assets",
@@ -1422,7 +1423,7 @@
                 "assets",
                 "silverstripe"
             ],
-            "time": "2019-02-01 11:58:20"
+            "time": "2019-02-01T11:58:20+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -1488,7 +1489,7 @@
                 "silverstripe",
                 "versioned"
             ],
-            "time": "2019-02-06 19:34:35"
+            "time": "2019-02-06T19:34:35+00:00"
         },
         {
             "name": "silverstripe/cms",
@@ -1595,7 +1596,7 @@
                 "BSD-3-Clause"
             ],
             "description": "SilverStripe configuration based on YAML and class statics",
-            "time": "2018-07-23 17:39:43"
+            "time": "2018-07-23T17:39:43+00:00"
         },
         {
             "name": "silverstripe/framework",
@@ -1603,12 +1604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "7a508af38765c6c703cf31a02ad6bb2ca3833963"
+                "reference": "a8605b04e0f77e39cd3af4b08c40ca33cb85457d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/7a508af38765c6c703cf31a02ad6bb2ca3833963",
-                "reference": "7a508af38765c6c703cf31a02ad6bb2ca3833963",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a8605b04e0f77e39cd3af4b08c40ca33cb85457d",
+                "reference": "a8605b04e0f77e39cd3af4b08c40ca33cb85457d",
                 "shasum": ""
             },
             "require": {
@@ -1711,7 +1712,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2019-02-12T08:56:11+00:00"
+            "time": "2019-03-06T11:04:14+00:00"
         },
         {
             "name": "silverstripe/reports",
@@ -1774,7 +1775,7 @@
                 "reports",
                 "silverstripe"
             ],
-            "time": "2019-01-10 00:58:04"
+            "time": "2019-01-10T00:58:04+00:00"
         },
         {
             "name": "silverstripe/siteconfig",
@@ -1825,7 +1826,7 @@
                 "silverstripe",
                 "siteconfig"
             ],
-            "time": "2019-01-10 00:56:38"
+            "time": "2019-01-10T00:56:38+00:00"
         },
         {
             "name": "silverstripe/vendor-plugin",
@@ -1881,16 +1882,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-versioned.git",
-                "reference": "fa931ec605ee7ee9351c81a48200bdd4be90d761"
+                "reference": "d6f26d211bd00c8b9c3552d6d2cb40481821a618"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned/zipball/fa931ec605ee7ee9351c81a48200bdd4be90d761",
-                "reference": "fa931ec605ee7ee9351c81a48200bdd4be90d761",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned/zipball/d6f26d211bd00c8b9c3552d6d2cb40481821a618",
+                "reference": "d6f26d211bd00c8b9c3552d6d2cb40481821a618",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": "^4",
+                "silverstripe/framework": "^4.2",
                 "silverstripe/vendor-plugin": "^1"
             },
             "require-dev": {
@@ -1930,7 +1931,7 @@
                 "silverstripe",
                 "versioned"
             ],
-            "time": "2019-01-31 15:34:36"
+            "time": "2019-02-25T23:54:46+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1984,7 +1985,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2018-07-31 09:26:32"
+            "time": "2018-07-31T09:26:32+00:00"
         },
         {
             "name": "symfony/cache",
@@ -1992,12 +1993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "38e5f4300cff5e70b714afd7cc658f5138514f94"
+                "reference": "aa02b67f961a15cef21f21d293afcac574a62118"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/38e5f4300cff5e70b714afd7cc658f5138514f94",
-                "reference": "38e5f4300cff5e70b714afd7cc658f5138514f94",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/aa02b67f961a15cef21f21d293afcac574a62118",
+                "reference": "aa02b67f961a15cef21f21d293afcac574a62118",
                 "shasum": ""
             },
             "require": {
@@ -2054,7 +2055,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2019-01-16 13:27:11"
+            "time": "2019-02-23T15:06:07+00:00"
         },
         {
             "name": "symfony/config",
@@ -2062,12 +2063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "c9bc510c217075d42d4a927e285917d0c2001cf4"
+                "reference": "177a276c01575253c95cefe0866e3d1b57637fe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/c9bc510c217075d42d4a927e285917d0c2001cf4",
-                "reference": "c9bc510c217075d42d4a927e285917d0c2001cf4",
+                "url": "https://api.github.com/repos/symfony/config/zipball/177a276c01575253c95cefe0866e3d1b57637fe0",
+                "reference": "177a276c01575253c95cefe0866e3d1b57637fe0",
                 "shasum": ""
             },
             "require": {
@@ -2118,7 +2119,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-30 11:33:42"
+            "time": "2019-02-23T15:06:07+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -2168,7 +2169,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2019-02-04 21:34:32"
+            "time": "2019-02-04T21:34:32+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2176,12 +2177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "7c0c627220308928e958a87c293108e5891cde1d"
+                "reference": "fcdde4aa38f48190ce70d782c166f23930084f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/7c0c627220308928e958a87c293108e5891cde1d",
-                "reference": "7c0c627220308928e958a87c293108e5891cde1d",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/fcdde4aa38f48190ce70d782c166f23930084f9b",
+                "reference": "fcdde4aa38f48190ce70d782c166f23930084f9b",
                 "shasum": ""
             },
             "require": {
@@ -2217,7 +2218,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16 13:43:35"
+            "time": "2019-02-22T14:44:53+00:00"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -2273,7 +2274,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06 07:57:58"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2331,7 +2332,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-02-06 07:57:58"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2390,7 +2391,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06 07:57:58"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/translation",
@@ -2454,7 +2455,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-24 21:16:41"
+            "time": "2018-11-24T21:16:41+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -2462,12 +2463,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ba11776e9e6c15ad5759a07bffb15899bac75c2d"
+                "reference": "57f1ce82c997f5a8701b89ef970e36bb657fd09c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ba11776e9e6c15ad5759a07bffb15899bac75c2d",
-                "reference": "ba11776e9e6c15ad5759a07bffb15899bac75c2d",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/57f1ce82c997f5a8701b89ef970e36bb657fd09c",
+                "reference": "57f1ce82c997f5a8701b89ef970e36bb657fd09c",
                 "shasum": ""
             },
             "require": {
@@ -2513,7 +2514,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16 10:59:17"
+            "time": "2019-02-23T15:06:07+00:00"
         },
         {
             "name": "zendframework/zend-authentication",
@@ -2575,7 +2576,7 @@
                 "ZendFramework",
                 "zf"
             ],
-            "time": "2019-01-24 15:06:23"
+            "time": "2019-01-24T15:06:23+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -2629,7 +2630,7 @@
                 "events",
                 "zf2"
             ],
-            "time": "2018-04-25 15:35:22"
+            "time": "2018-04-25T15:35:22+00:00"
         },
         {
             "name": "zendframework/zend-session",
@@ -2696,7 +2697,7 @@
                 "session",
                 "zf"
             ],
-            "time": "2018-02-22 16:28:39"
+            "time": "2018-02-22T16:28:39+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -2742,7 +2743,7 @@
                 "stdlib",
                 "zf"
             ],
-            "time": "2019-02-07 05:36:36"
+            "time": "2019-02-07T05:36:36+00:00"
         }
     ],
     "packages-dev": [],

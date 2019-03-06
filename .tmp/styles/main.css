@@ -203,7 +203,7 @@ h5 {
   margin: 0 0 7px 0; }
 
 #content-wrapper {
-  width: 1000px;
+  max-width: 1200px;
   margin: 0 auto 0 auto; }
 
 #content ul li {
@@ -268,7 +268,7 @@ p.admission a {
 
 /*HEADER*/
 #header {
-  width: 1000px;
+  max-width: 1200px;
   margin: 0 auto 0 auto;
   padding-top: 20px; }
 
@@ -290,7 +290,7 @@ h1 a {
 .uilogo {
   display: block;
   height: 38px;
-  width: 1000px;
+  max-width: 1200px;
   margin: 10px 0 0 0;
   float: left;
   background: url(../images/uiowa.png);
@@ -307,25 +307,29 @@ p.purpose {
   color: #ffcd00;
   font-size: 20px;
   width: 500px;
-  float: right;
+  text-align: center;
   height: 100px;
   margin: 0;
   padding: 0px 0 0 0;
-  text-align: right;
-  text-shadow: 0 1px 3px rgba(54, 36, 0, 0.81); }
+  text-shadow: 0 1px 3px rgba(54, 36, 0, 0.81);
+  float: right; }
+  @media screen and (min-width: 767px) {
+    p.purpose {
+      text-align: right; } }
 
 /*END HEADER */
 /*NAVIGATION */
 #nav {
   font-family: 'Josefin Sans', arial, serif;
-  width: 1000px;
+  max-width: 1200px;
   margin: 0 auto 0 auto; }
 
 #nav ul {
   list-style-type: none;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 2; }
 
 #nav ul li {
   display: inline;
@@ -342,7 +346,7 @@ p.purpose {
 /*END NAVIGATION */
 /* EVENT FEATURE */
 #eventfeature {
-  width: 1000px;
+  max-width: 1200px;
   min-height: 200px;
   background-color: #000;
   background: rgba(0, 0, 0, 0.6);
@@ -379,19 +383,30 @@ ul.sponsors li {
 
 /* Left and Right Columns */
 #rightcolumn, #leftcolumn {
-  margin-top: 0; }
+  margin-top: 0;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box; }
 
 /*LEFT COLUMN */
-#content #leftcolumn {
-  width: 45%;
-  float: left; }
+@media screen and (min-width: 767px) {
+  #content #leftcolumn {
+    width: 45%;
+    float: left; } }
+
+@media screen and (min-width: 767px) {
+  #content #leftcolumn.leftcolumn--no-rightcolumn {
+    width: 45%;
+    float: none;
+    margin: auto; } }
 
 /*END LEFT COLUMN */
 /*RIGHT COLUMN */
-#rightcolumn {
-  width: 45%;
-  float: left;
-  margin-left: 10%; }
+@media screen and (min-width: 767px) {
+  #rightcolumn {
+    width: 45%;
+    float: left;
+    margin-left: 10%; } }
 
 .underline {
   border-bottom: 7px solid #876730; }
@@ -408,19 +423,24 @@ h4 span.lowercase {
 #footer {
   clear: both;
   font-family: 'Josefin Sans', arial, serif;
-  width: 1000px;
   min-height: 200px;
-  margin: 60px auto 30px auto;
+  margin: 60px auto 0 auto;
   padding: 0;
-  padding-top: 30px; }
+  padding-top: 30px;
+  background: #222; }
 
 #footer p {
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  max-width: 700px; }
+  #footer p:after {
+    clear: both; }
 
 #footer p a {
-  color: #fff;
+  color: #ffcd00;
   text-decoration: none; }
 
 #footer ul {
