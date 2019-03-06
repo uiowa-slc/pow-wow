@@ -2,7 +2,7 @@
 @import "../../../../vendor/md/uiowa-bar/scss/uiowa-bar";
 /* CSS Document */
 body {
-	background-image: url(../images/interiorbgimg3.png);
+	background-image: url(../images/interiorbgimg3.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-color: rgb(0, 115, 175);
@@ -12,8 +12,9 @@ body {
 }
 
 body.HomePage {
-	background-image: url(../images/bgimg3.png);
+	background-image: url(../images/bgimg3.jpg);
 	background-position: 0 40px;
+	background-size: cover;
 }
 
 a {

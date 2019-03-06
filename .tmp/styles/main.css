@@ -144,7 +144,7 @@ input[type="submit"].uiowa-bar__submit {
 
 /* CSS Document */
 body {
-  background-image: url(../images/interiorbgimg3.png);
+  background-image: url(../images/interiorbgimg3.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #0073af;
@@ -153,8 +153,9 @@ body {
   padding: 0; }
 
 body.HomePage {
-  background-image: url(../images/bgimg3.png);
-  background-position: 0 40px; }
+  background-image: url(../images/bgimg3.jpg);
+  background-position: 0 40px;
+  background-size: cover; }
 
 a {
   color: #ffcd00;
