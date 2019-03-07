@@ -157,12 +157,19 @@ body.HomePage {
   body.HomePage #header-container {
     background-image: none; }
 
+.uiowa-bar__wordmark-link {
+  border: none; }
+
+.bg-screen--HomePage {
+  background: rgba(0, 0, 0, 0.5); }
+
 a {
   color: #ffcd00;
+  border-bottom: 1px dashed #ffcd00;
   text-decoration: none; }
 
 p {
-  line-height: 1.2em; }
+  line-height: 1.4; }
 
 .apply {
   outline: none;
@@ -205,13 +212,13 @@ h5 {
 
 #content-wrapper {
   max-width: 1200px;
-  margin: 0 auto 0 auto; }
+  margin: 0 auto 0 auto;
+  line-height: 1.3; }
 
 #content ul li {
   margin: 0 0 10px 20px; }
 
 #content.homepage {
-  background: rgba(0, 13, 20, 0.48);
   padding: 2%;
   color: #fff; }
 
@@ -234,6 +241,11 @@ span.lowercase {
   list-style-type: none;
   margin: 0px 0 40px -40px;
   text-transform: uppercase; }
+  #nav ul a {
+    border: none; }
+
+#nav ul li.current a {
+  color: #ffcd00; }
 
 ul li, ol li, p {
   font-weight: 100;
@@ -294,7 +306,8 @@ h1 {
 
 h1 a {
   display: block;
-  height: 100%; }
+  height: 100%;
+  border: none; }
 
 .uilogo {
   display: block;
@@ -332,16 +345,14 @@ p.purpose {
   font-family: 'Josefin Sans', arial, serif;
   max-width: 1200px;
   margin: 0 auto 0 auto; }
-  @media only screen and (max-width: 767px) {
-    #nav {
-      background: rgba(0, 0, 0, 0.6); } }
 
 #nav ul {
   list-style-type: none;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 2; }
+  line-height: 2;
+  text-shadow: 1px 1px #666; }
 
 #nav ul li {
   display: inline;
@@ -360,9 +371,7 @@ p.purpose {
 #eventfeature {
   max-width: 1200px;
   min-height: 200px;
-  background-color: #000;
-  background: rgba(0, 0, 0, 0.6);
-  border: 3px ridge #c0a475;
+  padding-top: 20px;
   margin: 55px 0 30px 0;
   text-align: center; }
 
@@ -376,7 +385,7 @@ span.date {
   text-transform: uppercase;
   font-size: 65px;
   font-weight: bold;
-  color: #0073af;
+  color: #2ed3ff;
   font-effect: engrave;
   text-shadow: -1px 0 #0e77a8, 0 1px #0e77a8, 1px 0 #0e77a8, 0 -1px #0e77a8; }
 
@@ -408,7 +417,7 @@ ul.sponsors li {
 
 @media screen and (min-width: 767px) {
   #content #leftcolumn.leftcolumn--no-rightcolumn {
-    width: 45%;
+    width: 65%;
     float: none;
     margin: auto; } }
 
@@ -436,7 +445,6 @@ h4 span.lowercase {
   clear: both;
   font-family: 'Josefin Sans', arial, serif;
   min-height: 200px;
-  margin: 60px auto 0 auto;
   padding: 0;
   padding-top: 30px;
   background: #222; }
@@ -470,7 +478,8 @@ h4 span.lowercase {
 
 #footer ul li a {
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  border: none; }
 
 #footer ul li a:hover {
   color: #ffcd00; }

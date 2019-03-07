@@ -24,10 +24,12 @@
     <div id="nav">
 		<% include Navigation %>
 	 </div>
-    
-   <div id="content-wrapper">
-   $Layout
-   </div>
+  
+   <div class="bg-screen bg-screen--{$ClassName}">
+     <div id="content-wrapper">
+     $Layout
+     </div>
+  </div>
   </div>
     <div id="footer">
     <p>&copy; <a href="http://www.uiowa.edu">The University of Iowa</a> {$Now.Year}. All rights reserved.</p>
