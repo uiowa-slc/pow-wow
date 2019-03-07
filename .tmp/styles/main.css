@@ -161,7 +161,7 @@ body.HomePage {
   border: none; }
 
 .bg-screen--HomePage {
-  background: rgba(0, 0, 0, 0.5); }
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.9) 22%, rgba(0, 0, 0, 0.4) 100%); }
 
 a {
   color: #ffcd00;
@@ -287,10 +287,16 @@ p.admission a {
   background-position: center top;
   background-repeat: no-repeat; }
 
+@media screen and (max-width: 767px) {
+  .header-screen {
+    background-color: rgba(34, 34, 34, 0.3); } }
+
 #header {
   max-width: 1200px;
   margin: 0 auto 0 auto;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 h1 {
   display: block;
@@ -379,14 +385,14 @@ p.purpose {
   color: #ffcd00;
   margin: 30px 0;
   font-weight: 100;
-  font-size: 35px; }
+  font-size: 35px;
+  text-shadow: 2px 2px #222; }
 
 span.date {
   text-transform: uppercase;
   font-size: 65px;
   font-weight: bold;
   color: #2ed3ff;
-  font-effect: engrave;
   text-shadow: -1px 0 #0e77a8, 0 1px #0e77a8, 1px 0 #0e77a8, 0 -1px #0e77a8; }
 
 #eventfeature p {
