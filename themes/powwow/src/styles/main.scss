@@ -2,9 +2,6 @@
 @import "../../../../vendor/md/uiowa-bar/scss/uiowa-bar";
 /* CSS Document */
 body {
-	background-image: url(../images/interiorbgimg3.jpg);
-	background-position: center top;
-	background-repeat: no-repeat;
 	background-color: rgb(0, 115, 175);
 	font-family: 'Josefin Sans', arial, serif;
 	margin: 0;
@@ -15,6 +12,9 @@ body.HomePage {
 	background-image: url(../images/bgimg3.jpg);
 	background-position: 0 40px;
 	background-size: contain;
+	#header-container{
+		background-image: none;
+	}
 }
 
 a {
@@ -154,6 +154,12 @@ p.admission a {
 }
 
 /*HEADER*/
+#header-container{
+	background-image: url(../images/interiorbgimg3.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	// background-size: contain;
+}
 #header {
 	max-width: 1200px;
 	margin: 0 auto 0 auto;
@@ -218,6 +224,9 @@ p.purpose {
 	font-family: 'Josefin Sans', arial, serif;
 	max-width: 1200px;
 	margin: 0 auto 0 auto;
+	@media only screen  and (max-width: 767px){
+		background: rgba(0,0,0,0.6);
+	}
 
 }
 
@@ -241,7 +250,7 @@ p.purpose {
 }
 
 #nav ul li a:hover {
-	color: #ea7121;
+	color: #ffcd00;
 }
 
 /*END NAVIGATION */
@@ -392,7 +401,7 @@ h4 span.lowercase {
 }
 
 #footer ul li a:hover {
-	color: #ea7121;
+	color: #ffcd00;
 }
 
 /*END FOOTER*/

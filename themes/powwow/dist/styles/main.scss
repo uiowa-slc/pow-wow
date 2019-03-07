@@ -5,6 +5,7 @@ body {
 	background-image: url(../images/interiorbgimg3.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
+	background-size: contain;
 	background-color: rgb(0, 115, 175);
 	font-family: 'Josefin Sans', arial, serif;
 	margin: 0;
@@ -167,6 +168,7 @@ h1 {
 	background-image: url(../images/powwow.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
+	background-size: contain;
 	text-indent: -9999px;
 	float: left;
 	margin: 0;
@@ -240,7 +242,7 @@ p.purpose {
 }
 
 #nav ul li a:hover {
-	color: #ea7121;
+	color: #ffcd00;
 }
 
 /*END NAVIGATION */
@@ -391,7 +393,7 @@ h4 span.lowercase {
 }
 
 #footer ul li a:hover {
-	color: #ea7121;
+	color: #ffcd00;
 }
 
 /*END FOOTER*/

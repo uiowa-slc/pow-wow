@@ -11,22 +11,24 @@
 
 <body class="$ClassName">
   <% include UiowaBar %>
-	<div id="header">
-    
-        <h1><a href="{$baseURL}">Powwow</a></h1>
-        <p class="purpose">Celebrating and honoring American Indian culture and tradition with the Iowa community</p>
-        <div style="clear: both"></div>
-    </div>
+  <div id="header-container">
+  	<div id="header">
+      
+          <h1><a href="{$baseURL}">Powwow</a></h1>
+          <p class="purpose">Celebrating and honoring American Indian culture and tradition with the Iowa community</p>
+          <div style="clear: both"></div>
+      </div>
+  
     
    	
     <div id="nav">
 		<% include Navigation %>
-	</div>
+	 </div>
     
    <div id="content-wrapper">
    $Layout
    </div>
-  
+  </div>
     <div id="footer">
     <p>&copy; <a href="http://www.uiowa.edu">The University of Iowa</a> {$Now.Year}. All rights reserved.</p>
     <% include Navigation %>
