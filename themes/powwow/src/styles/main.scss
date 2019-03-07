@@ -14,7 +14,7 @@ body {
 body.HomePage {
 	background-image: url(../images/bgimg3.jpg);
 	background-position: 0 40px;
-	background-size: cover;
+	background-size: contain;
 }
 
 a {
@@ -83,9 +83,8 @@ h5 {
 }
 
 #content.homepage {
-	// background: rgb(248, 196, 92);
-	// padding: 2%;
-	// border: 1px solid #967F58;
+	background: rgba(0, 13, 20, 0.48);
+	padding: 2%;
 	color: #fff;
 }
 
@@ -168,6 +167,7 @@ h1 {
 	background-image: url(../images/powwow.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
+	background-size: contain;
 	text-indent: -9999px;
 	float: left;
 	margin: 0;
