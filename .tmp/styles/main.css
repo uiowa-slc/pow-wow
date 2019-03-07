@@ -161,7 +161,7 @@ body.HomePage {
   border: none; }
 
 .bg-screen--HomePage {
-  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.9) 22%, rgba(0, 0, 0, 0.4) 100%); }
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0.4) 100%); }
 
 a {
   color: #ffcd00;
@@ -334,7 +334,6 @@ p.purpose {
   font-family: 'Josefin Sans', arial, serif;
   color: #ffcd00;
   font-size: 20px;
-  width: 500px;
   text-align: center;
   height: 100px;
   margin: 0;
@@ -343,7 +342,8 @@ p.purpose {
   float: right; }
   @media screen and (min-width: 767px) {
     p.purpose {
-      text-align: right; } }
+      text-align: right;
+      width: 500px; } }
 
 /*END HEADER */
 /*NAVIGATION */
