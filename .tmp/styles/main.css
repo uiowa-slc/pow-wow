@@ -301,7 +301,7 @@ p.admission a {
 h1 {
   display: block;
   height: 100px;
-  width: 500px;
+  width: 100%;
   background-image: url(../images/powwow.png);
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -309,6 +309,9 @@ h1 {
   text-indent: -9999px;
   float: left;
   margin: 0; }
+  @media screen and (min-width: 767px) {
+    h1 {
+      width: 500px; } }
 
 h1 a {
   display: block;

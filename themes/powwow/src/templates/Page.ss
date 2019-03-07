@@ -5,6 +5,7 @@
 <% base_tag %>
 		<title><% if URLSegment != "home" %>$Title | <% end_if %>$SiteConfig.Title</title>
 		$MetaTags(false)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="{$ThemeDir}/dist/css/main.css" />
 
 </head>
