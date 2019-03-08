@@ -7,7 +7,17 @@
 		$MetaTags(false)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="{$ThemeDir}/dist/css/main.css" />
-
+    <% if $URLSegment == "home" %>
+      <meta property="og:title" content="$SiteConfig.Title" />
+    <% else %>
+      <meta property="og:title" content="$Title.ATT" />
+    <% end_if %>
+    <meta property="og:url" content="$AbsoluteLink" />
+    
+        <meta property="og:description" content="$Content1.Plain" />
+    <meta property="og:image" content="{$absoluteBaseURL}{$ThemeDir}dist/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 </head>
 
 <body class="$ClassName">
