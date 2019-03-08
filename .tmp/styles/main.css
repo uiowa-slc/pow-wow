@@ -239,10 +239,13 @@ span.lowercase {
 
 #nav ul {
   list-style-type: none;
-  margin: 0px 0 40px -40px;
+  margin: 0px 0 0px -40px;
   text-transform: uppercase; }
   #nav ul a {
     border: none; }
+  @media screen and (min-width: 767px) {
+    #nav ul {
+      margin: 0px 0 40px -40px; } }
 
 #nav ul li.current a {
   color: #ffcd00; }
@@ -373,7 +376,8 @@ p.purpose {
   text-decoration: none; }
 
 #nav ul li a:hover {
-  color: #ffcd00; }
+  color: #ffcd00;
+  border-bottom: 1px dashed #ffcd00; }
 
 /*END NAVIGATION */
 /* EVENT FEATURE */
@@ -381,22 +385,30 @@ p.purpose {
   max-width: 1200px;
   min-height: 200px;
   padding-top: 20px;
-  margin: 55px 0 30px 0;
+  margin: 0 0 30px 0;
   text-align: center; }
+  @media screen and (min-width: 767px) {
+    #eventfeature {
+      margin: 55px 0 30px 0; } }
 
 #eventfeature h2 {
   color: #ffcd00;
   margin: 30px 0;
   font-weight: 100;
-  font-size: 35px;
   text-shadow: 2px 2px #222; }
+  @media screen and (min-width: 767px) {
+    #eventfeature h2 {
+      font-size: 60px; } }
 
 span.date {
   text-transform: uppercase;
-  font-size: 65px;
+  font-size: 48px;
   font-weight: bold;
   color: #2ed3ff;
   text-shadow: -1px 0 #0e77a8, 0 1px #0e77a8, 1px 0 #0e77a8, 0 -1px #0e77a8; }
+  @media screen and (min-width: 767px) {
+    span.date {
+      font-size: 65px; } }
 
 #eventfeature p {
   font-family: 'Josefin Sans', arial, serif;
@@ -491,6 +503,7 @@ h4 span.lowercase {
   border: none; }
 
 #footer ul li a:hover {
-  color: #ffcd00; }
+  color: #ffcd00;
+  border-bottom: 1px dashed #ffcd00; }
 
 /*END FOOTER*/
