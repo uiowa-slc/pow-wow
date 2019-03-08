@@ -465,10 +465,17 @@ h4 span.lowercase {
 }
 
 #footer ul li {
-	display: inline;
+
+
 	font-size: 20px;
-	padding: 0 16px 0 16px;
+	text-align: center;
 	margin-top: 30px;
+
+	@media screen and (min-width: 767px) {
+		display: inline;
+		text-align: center;
+		padding: 0 16px 0 16px;
+	}
 
 }
 
