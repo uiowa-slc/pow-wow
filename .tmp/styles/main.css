@@ -405,7 +405,7 @@ span.date {
   font-size: 48px;
   font-weight: bold;
   color: #2ed3ff;
-  text-shadow: -1px 0 #0e77a8, 0 1px #0e77a8, 1px 0 #0e77a8, 0 -1px #0e77a8; }
+  text-shadow: 2px 2px #222; }
   @media screen and (min-width: 767px) {
     span.date {
       font-size: 65px; } }
