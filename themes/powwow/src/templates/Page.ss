@@ -15,7 +15,7 @@
     <meta property="og:url" content="$AbsoluteLink" />
     
         <meta property="og:description" content="$Content1.Plain" />
-    <meta property="og:image" content="{$absoluteBaseURL}{$ThemeDir}dist/images/og-image.jpg" />
+    <meta property="og:image" content="{$absoluteBaseURL}resources/themes/powwow/dist/images/og-image.jpg" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 </head>
