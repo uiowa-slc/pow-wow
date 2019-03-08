@@ -243,7 +243,7 @@ p.purpose {
 	height: 100px;
 	margin: 0;
 	padding: 0px 0 0 0;
-	text-shadow: 0 1px 3px rgba(54, 36, 0, 0.81);
+	text-shadow: 2px 2px #222;
 	float: right;
 	@media screen and (min-width: 767px) {
 		text-align: right;
@@ -366,6 +366,39 @@ ul.sponsors li {
 		width: 65%;
 		float: none;
 		margin: auto;
+	}
+}
+
+.leftcolumn--security{
+
+	text-align: center;
+
+	fieldset{
+		border: none;
+	}
+	/* log in button */
+	#SAMLLoginForm_LoginForm{
+	    .action{
+	        background-color: #ffcd00;
+	        border: none;
+	        box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+	        color: #000;
+	        letter-spacing: 1px;
+	        text-transform: uppercase;
+	        width: 50%;
+	        transition: .2s linear;
+	        font-size: 28px;
+	        margin: auto;
+
+	        &:hover{
+	        	cursor: pointer;
+	        }
+	    }
+	}
+
+	@media screen and (min-width: 767px) {
+		min-height: 50vh;
+
 	}
 }
 

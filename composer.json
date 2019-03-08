@@ -1,25 +1,42 @@
 {
-	"name": "silverstripe/installer",
-	"description": "The SilverStripe Framework Installer",
-	"require": {
-		"php": ">=5.5",
-      	"silverstripe/framework": "~4.3.0",
-        "silverstripe/cms": "~4.3.0",
-		"silverstripe-themes/simple": "*",
-      	"md/saml" : "dev-md",
-		"md/division-analytics":"1.*",
-		"md/uiowa-bar":"*"
-
-	},
-	"config": {
-		"process-timeout": 600	
-	},
+    "name": "silverstripe/installer",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "php": ">=5.5",
+        "silverstripe/framework": "4.3.*@stable",
+        "silverstripe/cms": "4.3.*@stable",
+        "silverstripe/recipe-plugin": "*",
+        "silverstripe/recipe-cms": "*",
+        "silverstripe/reports": "*",
+        "silverstripe/siteconfig": "*",
+        "silverstripe-themes/simple": "*",
+        "md/saml": "dev-md",
+        "md/division-analytics": "1.*",
+        "md/uiowa-bar": "*"
+    },
+    "config": {
+        "process-timeout": 600
+    },
     "extra": {
         "expose": [
-          "themes/powwow/dist"
+            "themes/powwow/dist"
+        ],
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
         ]
     },
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
@@ -29,10 +46,10 @@
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
         },
-        {  
-       		"type":"vcs",
-       		"url":"https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml"
-    	},
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar"
