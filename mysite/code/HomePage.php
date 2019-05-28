@@ -8,11 +8,12 @@ class HomePage extends Page {
 		);
 
 	private static $has_one = array(
+	
 	);
 	
-	function getCMSFields() {
+	public function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$fields->addFieldToTab("Root.Main", new HTMLEditorField('Event', 'Main Feature (Top of Page)'), 'Content1');
+		$fields->addFieldToTab("Root.Main", HTMLEditorField::create('Event', 'Main Feature (Top of Page)')->addExtraClass('stacked'), 'Content1');
 		return $fields;
 	}
 }

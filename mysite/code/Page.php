@@ -14,12 +14,15 @@ class Page extends SiteTree {
 	private static $has_one = array(
 	);
 	
-		function getCMSFields() {
+	public function getCMSFields() {
 		$fields = parent::getCMSFields();
 
-		$fields->addFieldToTab("Root.Main", new HTMLEditorField('Content1', 'Left Column'));
-		$fields->addFieldToTab("Root.Main", new HTMLEditorField('Content2', 'Right Column'));
+		$fields->addFieldToTab("Root.Main", HTMLEditorField::create('Content1', 'Left Column')->addExtraClass('stacked'));
+		$fields->addFieldToTab("Root.Main", HTMLEditorField::create('Content2', 'Right Column')->addExtraClass('stacked'));
 		$fields->removeFieldFromTab("Root.Main","Content");
+
+		$fields->dataFieldByName('Content1')
+                ->addExtraClass('stacked');
 
 		return $fields;
 	}

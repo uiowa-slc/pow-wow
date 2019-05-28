@@ -7,7 +7,7 @@ class HistoryPage extends Page {
 	private static $has_one = array(
 	);
 	
-		function getCMSFields() {
+		public function getCMSFields() {
 		$fields = parent::getCMSFields();
 
 
