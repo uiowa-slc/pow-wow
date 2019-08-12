@@ -12,7 +12,8 @@
         "silverstripe-themes/simple": "*",
         "md/saml": "dev-md",
         "md/division-analytics": "1.*",
-        "md/uiowa-bar": "*"
+        "md/uiowa-bar": "*",
+        "md/deploy-helper": "*"
     },
     "config": {
         "process-timeout": 600
@@ -38,18 +39,22 @@
         ]
     },
     "minimum-stability": "dev",
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
         },
-        {
+        "1": {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml"
         },
-        {
+        "2": {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar"
+        },
+        "repo-name": {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper"
         }
-    ]
+    }
 }
