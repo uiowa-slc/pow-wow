@@ -17,7 +17,12 @@ body.HomePage {
 		background-image: none;
 	}
 }
-.uiowa-bar__wordmark-link{
+
+#uiowa-bar #uiowa-search .links a{
+    font-size: 14px;
+    border: none;
+}
+.uiowa--bar--wordmark {
 	border: none;
 }
 .bg-screen--HomePage{
@@ -182,7 +187,7 @@ p.admission a {
 }
 
 .header-screen{
-	
+
 	@media screen and (max-width: 767px) {
 		background-color: rgba(#222, 0.3);
 	}
@@ -238,7 +243,7 @@ p.purpose {
 	font-family: 'Josefin Sans', arial, serif;
 	color: #ffcd00;
 	font-size: 20px;
-	
+
 	text-align: center;
 	height: 100px;
 	margin: 0;
