@@ -1,16 +1,31 @@
+
+
+
+
+
 <% if $EnableStream && $StreamVideoID %>
-    <div class="home-embed">
+    <div class="stream-feature">
+        <h2 style="text-align: center;">26th Annual&nbsp;University of Iowa&nbsp;Powwow</h2>
+
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/$StreamVideoID"></iframe>
         </div>
+        <div class="stream-caption my-3 mx-auto" style="max-width: 700px;">
+            <p style="text-align: center;">Live from UI Field House</p>
+            <p style="text-align: center;"><em>A celebration of American Indian song and dance, tradition and education hosted by the&nbsp;Native&nbsp;American Student Association</em></p>
+        </div>
     </div>
-<% end_if %>
 
 
+    </div>
 
- <div id="eventfeature">
+<% else %>
+
+ <div id="event-feature">
        $Event
   </div>
+
+<% end_if %>
 
   <div id="content" class="homepage">
 

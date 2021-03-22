@@ -305,7 +305,7 @@ p.purpose {
 /*END NAVIGATION */
 
 /* EVENT FEATURE */
-#eventfeature {
+.event-feature {
     max-width: 1200px;
     min-height: 200px;
     padding-top: 20px;
@@ -318,39 +318,51 @@ p.purpose {
 
 }
 
-#eventfeature h2 {
-    color: #ffcd00;
-    margin: 30px 0;
-    font-weight: 100;
-    font-size: 32px;
-    text-shadow: 2px 2px #222;
 
-    @media screen and (min-width: 767px) {
-        font-size: 60px;
+.stream-feature,
+.event-feature {
+
+
+    h2 {
+        color: #ffcd00;
+        margin: 30px 0;
+        font-weight: 100;
+        font-size: 32px;
+        text-shadow: 2px 2px #222;
+
+        @media screen and (min-width: 767px) {
+            font-size: 60px;
+        }
     }
-}
 
-span.date {
-    text-transform: uppercase;
-    font-size: 48px;
-    font-weight: bold;
-    color: #2ed3ff;
-    text-shadow: 2px 2px #222;
+    .date {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+        color: #2ed3ff;
+        text-shadow: 2px 2px #222;
 
-    @media screen and (min-width: 767px) {
-        font-size: 65px;
+        @media screen and (min-width: 767px) {
+            font-size: 65px;
+
+        }
 
     }
+
+
+
+    p {
+        font-family: 'Josefin Sans', arial, serif;
+        font-size: 23px;
+        color: white;
+        // margin: 0 75px 40px 75px;
+        // line-height: 30px;
+        // text-align: center;
+
+    }
+
 }
 
-#eventfeature p {
-    font-family: 'Josefin Sans', arial, serif;
-    font-size: 23px;
-    color: white;
-    margin: 0 75px 40px 75px;
-    line-height: 30px;
-    text-align: center;
-}
 
 /*END EVENT FEATURE */
 ul.sponsors li {
@@ -509,9 +521,9 @@ h4 span.lowercase {
 
     @media screen and (min-width: 767px) {
         display: inline;
-text-align: center;
-padding: 0 16px 0 16px;
-}
+        text-align: center;
+        padding: 0 16px 0 16px;
+    }
 
 }
 
@@ -528,4 +540,3 @@ padding: 0 16px 0 16px;
 
 
 /*END FOOTER*/
-
