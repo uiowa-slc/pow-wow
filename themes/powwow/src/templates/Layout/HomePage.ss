@@ -1,26 +1,26 @@
-<link rel="shortcut icon" href="/favicon.ico">
+<% if $EnableStream && $StreamVideoID %>
+    <div class="home-embed">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/$StreamVideoID"></iframe>
+        </div>
+    </div>
+<% end_if %>
+
+
 
  <div id="eventfeature">
        $Event
   </div>
-  
+
   <div id="content" class="homepage">
-    
+
     <div id="leftcolumn">
      $Content1
-    
+
     </div>
-    
+
     <div id="rightcolumn">
         $Content2
-      <!--  <p class="registration">
-        	<a href="assets/VendorApplication.pdf">Vendor Registration</a>
-            
-        </p>
-        <p class="admission">
-       		 <a href="assets/Uploads/powwow.pdf">Kids, color this for free admission</a>
-        </p>-->
-    </div> 
+    </div>
     <div class="clear"></div>
   </div>
-  
