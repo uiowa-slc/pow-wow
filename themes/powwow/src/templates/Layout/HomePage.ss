@@ -3,7 +3,8 @@
 
 
 
-<% if $EnableStream && $StreamVideoID %>
+<% if $EnableStream  %>
+    <% if $StreamVideoID %>
     <div class="stream-feature">
         <h2 style="text-align: center;">26th Annual&nbsp;University of Iowa&nbsp;Powwow</h2>
 
@@ -11,13 +12,22 @@
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/$StreamVideoID"></iframe>
         </div>
         <div class="stream-caption my-3 mx-auto" style="max-width: 700px;">
-            <p style="text-align: center;">Live from UI Field House</p>
-            <p style="text-align: center;"><em>A celebration of American Indian song and dance, tradition and education hosted by the&nbsp;Native&nbsp;American Student Association</em></p>
+            $StreamCaption
         </div>
     </div>
+    <% end_if %>
+
+    <% if $StreamChannelLink %>
+        <p style="text-align: center;"><a href="$StreamChannelLink" target="_blank" rel="noopener" style="background: gold;display: inline-block;padding: 30px;font-size: 48px;color: black;text-transform: uppercase;line-height: 1;"><svg aria-hidden="true" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-broadcast" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 0 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707z"></path>
+                        <path d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"></path>
+                    </svg>&nbsp;View Livestream</a>
+</p>
+
+    <% end_if %>
 
 
-    </div>
+
 
 <% else %>
 
