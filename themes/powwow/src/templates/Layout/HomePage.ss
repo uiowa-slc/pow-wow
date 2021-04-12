@@ -31,7 +31,7 @@
 
 <% else %>
 
- <div id="event-feature">
+ <div class="event-feature">
        $Event
   </div>
 
