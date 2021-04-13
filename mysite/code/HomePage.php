@@ -22,7 +22,7 @@ class HomePage extends Page {
 	public function getCMSFields() {
 		$fields = parent::getCMSFields();
 
-		$fields->addFieldToTab('Root.Main', CheckboxField::create('EnableStream', 'Enable Livestream'), 'Content1');
+		$fields->addFieldToTab('Root.Main', CheckboxField::create('EnableStream', 'Enable Livestream')->setDescription('<b>Important: This must be checked in order for the stream link to show. </b>'), 'Content1');
 		$fields->addFieldToTab('Root.Main', TextField::create('StreamChannelLink', 'Stream Channel Link')->setDescription('Shows the "View Livestream" button with a link to this channel'), 'Content1');
 		$fields->addFieldToTab('Root.Main', YoutubeField::create('StreamVideoID', 'Livestream YouTube Link'), 'Content1');
 
