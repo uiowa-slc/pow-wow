@@ -49,9 +49,10 @@
   </div>
   </div>
     <div id="footer" class="footer">
-    <p class="footer__copy">&copy; $Now.Year <a href="http://www.uiowa.edu">The University of Iowa</a> {$Now.Year}. All rights reserved. <a href="http://www.uiowa.edu/homepage/online-privacy-information" class="footer__bar-link" target="_blank" rel="noopener">Privacy Information</a> <a href="https://opsmanual.uiowa.edu/community-policies/nondiscrimination-statement" class="footer__bar-link" target="_blank" rel="noopener">Nondiscrimination Statement</a> <a href="https://uiowa.edu/accessibility" target="_blank" class="footer__bar-link" >Accessibility</a> Created by <a href="https://slc.studentlife.uiowa.edu/" target="_blank" rel="noopener">Student Life Communications</a></p>
+
     <% include Navigation %>
     <p>Individuals with disabilities are encouraged to attend all University of Iowa-sponsored events. If you are a person with a disability who requires an accommodation in order to participate in this program, please contact NASA in advance at (319) 335-8298 or <a href="mailto:studorg-ui-nasa@uiowa.edu">studorg-ui-nasa@uiowa.edu</a></p>
+<p class="footer__copy">&copy; $Now.Year <a href="http://www.uiowa.edu">The University of Iowa</a> {$Now.Year}. All rights reserved. <a href="http://www.uiowa.edu/homepage/online-privacy-information" class="footer__bar-link" target="_blank" rel="noopener">Privacy Information</a> <a href="https://opsmanual.uiowa.edu/community-policies/nondiscrimination-statement" class="footer__bar-link" target="_blank" rel="noopener">Nondiscrimination Statement</a> <a href="https://uiowa.edu/accessibility" target="_blank" class="footer__bar-link" >Accessibility</a> <a href="https://nativeamericancouncil.org.uiowa.edu/" target="_blank" rel="noopener" class="footer__bar-link">UI Indigenous Land Acknowledgement</a> Created by <a href="https://slc.studentlife.uiowa.edu/" target="_blank" rel="noopener">Student Life Communications</a></p>
     </div>
    $Analytics
 </body>
