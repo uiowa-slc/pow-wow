@@ -1,54 +1,52 @@
 {
-  "name": "silverstripe/installer",
-  "description": "The SilverStripe Framework Installer",
-  "require":
-  {
-    "php": ">=5.5",
-    "silverstripe/recipe-plugin": "^1.2",
-    "silverstripe/recipe-cms": "4.6.*@stable",
-    "md/saml": "dev-md",
-    "md/division-analytics": "1.3.*",
-    "md/uiowa-bar": "2.*",
-    "edgarindustries/youtubefield": "9999999-dev"
-  },
-  "config":
-  {
-    "process-timeout": 600
-  },
-  "minimum-stability": "dev",
-  "extra":
-  {
-    "resources-dir": "_resources",
-    "expose": [
-      "themes/powwow/dist"
-    ],
-    "project-files-installed": [
-      "app/.htaccess",
-      "app/_config.php",
-      "app/_config/mimevalidator.yml",
-      "app/_config/mysite.yml",
-      "app/src/Page.php",
-      "app/src/PageController.php"
-    ],
-    "public-files-installed": [
-      ".htaccess",
-      "index.php",
-      "install-frameworkmissing.html",
-      "install.php",
-      "web.config"
+    "name": "silverstripe/installer",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "php": ">=5.5",
+        "silverstripe/recipe-plugin": "^1.2",
+        "silverstripe/recipe-cms": "4.8.*@stable",
+        "md/saml": "dev-md",
+        "md/division-analytics": "1.3.*",
+        "md/uiowa-bar": "2.*",
+        "edgarindustries/youtubefield": "9999999-dev"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "resources-dir": "_resources",
+        "expose": [
+            "themes/powwow/dist"
+        ],
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mimevalidator.yml",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar"
+        }
     ]
-  },
-  "repositories": [
-  {
-    "type": "vcs",
-    "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
-  },
-  {
-    "type": "vcs",
-    "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml"
-  },
-  {
-    "type": "vcs",
-    "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar"
-  }]
 }
