@@ -13,6 +13,7 @@
     "config": {
         "process-timeout": 600
     },
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "extra": {
         "resources-dir": "_resources",
