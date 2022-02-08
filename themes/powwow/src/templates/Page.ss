@@ -32,7 +32,7 @@
       	<div id="header">
 
               <h1><a href="{$baseURL}">Powwow</a></h1>
-              <p class="purpose">Celebrating and honoring American Indian culture and tradition with the Iowa community</p>
+              <p class="purpose">Celebrating and honoring Indigenous culture and tradition with the Iowa community</p>
               <div style="clear: both"></div>
           </div>
 
